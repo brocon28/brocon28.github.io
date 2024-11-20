@@ -1,0 +1,448 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #212121;
+  color: #333;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* From Uiverse.io by MikeAndrewDesigner */ 
+.e-card {
+  margin: 100px auto;
+  background: transparent;
+  /*box-shadow: 0vw 0vw 100vw 0px rgba(175,64,255,0.45);*/
+  box-shadow: 0vw 0vw 100vw 0px rgba(0, 33, 165, .45);
+  background-color: #ffffff;
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 16px;
+  overflow:hidden;
+  transition: opacity 1s ease;
+}
+
+.fade-out {
+  opacity: 0; /* Set opacity to 0 for fade out */
+}
+
+.wave {
+  position: absolute;
+  width: 80vw;
+  height: 120vw;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -30%;
+  margin-top: -45%;
+  /*background: linear-gradient(744deg,#af40ff,#5b42f3 60%,#00ddeb);*/
+  background: linear-gradient(744deg,#3633ff,#1f75ff 60%,#0021A5);
+}
+
+.icon {
+  width: 10vw;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+.infotop {
+  text-align: center;
+  font-size: 2vw;
+  position: absolute;
+  top: 5.6em;
+  left: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.name {
+  font-size: 1.4vw;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  text-transform: lowercase;
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 210px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#key-contributors {
+  /*box-shadow: 0vw 0vw 100vw 0px #fef967; /* Apply the box shadow */
+  box-shadow: 0vw 0vw 100vw 0px#FA4616;
+  display: none; /* Initially hidden */
+}
+
+/* Wave 1 for Key Contributors Card */
+#key-contributors .wave1 {
+  background: linear-gradient(744deg,#FA4616, #f7b733 60%, #fc4a1a);
+}
+
+/* Wave 2 for Key Contributors Card */
+#key-contributors .wave2 {
+  background: linear-gradient(744deg,#fc4a1a, #FA4616 60%, #f7b733);
+  animation-delay: -2s;
+}
+
+/* Wave 3 for Key Contributors Card */
+#key-contributors .wave3 {
+  background: linear-gradient(744deg,#f7b733, #fc4a1a 60%, #FA4616);
+  animation-delay: -4s;
+}
+/* Wave 1 for Key Contributors Card 
+#key-contributors .wave1 {
+  background: linear-gradient(744deg,#ff3d9b, #fef967 60%, #fe7171);
+}
+
+
+#key-contributors .wave2 {
+  background: linear-gradient(744deg,#fef967, #ff3d9b 60%, #fe7171);
+  animation-delay: -2s;
+}
+
+
+#key-contributors .wave3 {
+  background: linear-gradient(744deg,#fe7171, #fef967 60%, #ff3d9b);
+  animation-delay: -4s;
+}*/
+
+/* Animation for waves */
+@keyframes waveMove {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-20%) rotate(360deg);
+  }
+}
+
+/* Fade out effect */
+.fade-out {
+  opacity: 0;
+}
+
+/* Main Content Section */
+#main-content {
+  padding: 5vh 5vw;
+  background-color: #fff;
+  display: none; /* Initially hidden */
+}
+
+#main-content h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#main-content p {
+  line-height: 1.6;
+  font-size: 1.5vw;
+}
+
+/* Fade-out Class */
+.fade-out {
+  opacity: 0; /* Fully transparent */
+}
+
+/* To Show Main Content */
+.show {
+  display: block; /* Show the main content */
+}
+
+
+
+/* Third card wave colors */
+#third-card .wave1 {
+  background: linear-gradient(744deg, #F2994A, #F2C94C 60%,#F2C94C); /* Example gradient */
+}
+#third-card .wave2 {
+  background: linear-gradient(744deg, #F2994A, #F2C94C 60%,#F2C94C);
+}
+#third-card .wave3 {
+  background: linear-gradient(744deg, #F2994A, #F2C94C 60%,#F2C94C);
+}
+
+/* Fourth card wave colors */
+#fourth-card .wave1 {
+  background: linear-gradient(744deg,#7F7FD5,#86A8E7 60%, #91EAE4); /* Example gradient */
+}
+#fourth-card .wave2 {
+  background: linear-gradient(744deg,#7F7FD5,#86A8E7 60%, #91EAE4);
+}
+#fourth-card .wave3 {
+  background: linear-gradient(744deg, #7F7FD5,#86A8E7 60%, #91EAE4);
+}
+
+/* Fifth card wave colors */
+#fifth-card .wave1 {
+  background: linear-gradient(744deg,#F2994A, #F2C94C 60%,#F2C94C); /* Example gradient */
+}
+#fifth-card .wave2 {
+  background: linear-gradient(744deg, #F2994A, #F2C94C 60%,#F2C94C);
+}
+#fifth-card .wave3 {
+  background: linear-gradient(744deg, #F2994A, #F2C94C 60%,#F2C94C);
+}
+
+
+/* Container for the cards */
+.card-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+  position: relative;
+}
+
+/* General card styles 
+.e-card {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}*/
+
+/* Card 3: Customizable size and placement */
+#third-card {
+  width: 30vw; /* Change card dimensions */
+  height: 30vw; /* Change card dimensions */
+  transform: translateY(-4vw); /* Adjust position */
+}
+
+/* Card 4: Customizable size and placement */
+#fourth-card {
+  width: 33vw; /* Change card dimensions */
+  height: 33vw; /* Change card dimensions */
+  transform: translateY(0); /* Adjust position */
+  z-index: 1; /* Ensure this card stays on top */
+}
+
+/* Card 5: Customizable size and placement */
+#fifth-card {
+  width: 30vw; /* Change card dimensions */
+  height: 30vw; /* Change card dimensions */
+  transform: translateY(-4vw); /* Adjust position */
+}
+
+/* Custom wave for each card */
+#third-card .wave {
+  position: absolute;
+  border-radius: 40%;
+  animation: waveMove 6s infinite linear;
+}
+
+/* Card 3: Individual wave settings */
+#wave3-1 {
+  width: 80vw;
+  height: 120vw;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -30%;
+  margin-top: -60%;
+  background: linear-gradient(744deg, #e13789, #d5d158 60%, #d100c0);
+}
+#wave3-2 {
+  width: 60vw;
+  height: 100vw;
+  opacity: 0.5;
+  left: 10%;
+  top: 10%;
+  background: linear-gradient(744deg, #c400c0, #d5d158 60%, #ff5c8a);
+}
+#wave3-3 {
+  width: 40vw;
+  height: 80vw;
+  opacity: 0.4;
+  left: 20%;
+  top: 20%;
+  background: linear-gradient(744deg, #ff5c8a, #d5d158 60%, #ff3d9b);
+}
+
+/* Card 4: Individual wave settings */
+#wave4-1 {
+  width: 90vw;
+  height: 130vw;
+  opacity: 0.6;
+  left: -20%;
+  top: -50%;
+  background: linear-gradient(744deg, #ff3d9b, #fef967 60%, #fe7171);
+}
+#wave4-2 {
+  width: 70vw;
+  height: 110vw;
+  opacity: 0.5;
+  left: 5%;
+  top: 0;
+  background: linear-gradient(744deg, #ff2d9b, #fef123 60%, #fe7141);
+}
+#wave4-3 {
+  width: 50vw;
+  height: 90vw;
+  opacity: 0.4;
+  left: 15%;
+  top: 20%;
+  background: linear-gradient(744deg, #ff6c9b, #fec123 60%, #fe7141);
+}
+
+/* Card 5: Individual wave settings */
+#wave5-1 {
+  width: 85vw;
+  height: 125vw;
+  opacity: 0.6;
+  left: -10%;
+  top: -45%;
+  background: linear-gradient(744deg, #ff0000, #fef567 60%, #fe1000);
+}
+#wave5-2 {
+  width: 65vw;
+  height: 105vw;
+  opacity: 0.5;
+  left: 5%;
+  top: 5%;
+  background: linear-gradient(744deg, #ff1100, #fef565 60%, #fe7100);
+}
+#wave5-3 {
+  width: 45vw;
+  height: 85vw;
+  opacity: 0.4;
+  left: 15%;
+  top: 25%;
+  background: linear-gradient(744deg, #ff2200, #fef456 60%, #fe0101);
+}
+
+/* Wave animations */
+@keyframes waveMove {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-20%) rotate(360deg);
+  }
+}
+
+/* Text inside the card 
+.infotop {
+  position: relative;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  z-index: 2;
+}*/
+
+
+.e-card.expanded {
+  height: 50vw; /* Expanded size */
+  border-color: var(--border-color); /* Use border color from wave */
+}
+
+.e-card.expanded .wave {
+  background: black !important;
+}
+
+.e-card .description {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.e-card.expanded .description {
+  display: block;
+  opacity: 1;
+}
+
+@keyframes waveMove {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Initially hide the image cards */
+.image-card {
+  display: flex; /* Ensure cards align horizontally */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  border: 5px solid transparent; /* Border will change to wave color */
+}
+
+
+/* Placeholder for the image before the card is clicked */
+.image {
+  display: none; /* Initially hidden */
+  width: 100%;
+  height: 30vw;
+  background: url('person.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* Description text - hidden until clicked */
+.description {
+  display: none; /* Initially hidden */
+  font-size: 1.5vw;
+  color: #333;
+  padding: 10px;
+}
+
+/* Styling for waves before clicking */
+.wave {
+  position: absolute;
+  border-radius: 40%;
+  animation: waveMove 6s infinite linear;
+}
+
+/* Clicked state - waves turn black */
+.clicked .wave {
+  background: linear-gradient(744deg, black, black); /* Waves become black */
+}
+
+/* Expanded card style */
+.clicked {
+  height: 60vw; /* Larger card on click */
+  transition: height 0.5s ease-in-out;
+}

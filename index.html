@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Themed Informational Section with Focused Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General dark theme styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Dark background */
+            color: #ddd; /* Light gray text */
+
+            background: linear-gradient(135deg, #090912, #04030f); /* Gradient from purple to blue */
+            /*filter: blur(4px); /* Apply slight blur to the background */
+            position: relative;
+        }
+        
+
+
+
+        /* Navbar container */
+        .navbar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 5vw;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 2vw;
+          z-index: 100;
+          overflow: hidden;
+          /*change*/
+          background-color: #5b42f3;
+          background-color: #FA4616;
+        }
+
+        /* Title in the navbar */
+        .navbar h1 {
+          color: white;
+          font-size: 1.8vw;
+        }
+
+        /* Button in the navbar */
+        .navbar button {
+          padding: 1vw 1.5vw;
+          background-color: white;
+          /*change*/
+          color: #5b42f3;
+          color: #0021A5;
+          border: 1vw white;
+          border-radius: 50px;
+          cursor: pointer;
+          margin-right: 4vw;
+        /* Font settings */
+          font-size: 1vw;
+          font-family: 'Barlow', sans-serif; /* Use quotes for font family names with multiple words */
+          font-weight: bold; /* Makes the text bold */
+          /* Transition for smooth scaling */
+          transition: transform 0.3s ease; /* Adjust duration and easing as needed */
+        }
+
+        .navbar button:hover {
+          transform: scale(1.1); /* Scales the button to 120% of its original size */
+        }
+
+        /* Wave effect behind the navbar */
+        .wave {
+          position: absolute;
+          width: 150vw; /* Larger width to ensure full coverage */
+          height: 150vw;
+          opacity: 0.6;
+          top: -50%;
+          left: -50%;
+          /*change
+          background: linear-gradient(744deg, #af40ff, #5b42f3 60%, #00ddeb);*/
+          background: linear-gradient(744deg, #0021A5, #0021A5 70%,#FA4616);
+          border-radius: 40%;
+          animation: wave 55s infinite linear;
+          z-index: -1; /* Keep waves behind the navbar content */
+        }
+
+        .wave:nth-child(2) {
+          animation-duration: 50s;
+          top: -60%;
+        }
+
+        .wave:nth-child(3) {
+          animation-duration: 45s;
+          top: -70%;
+        }
+
+        /* Wave animation */
+        @keyframes wave {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+
+        
+        
+        .container {
+            width: 80vw;
+            max-width: 100vw;
+            margin: 3vw auto;
+            padding: 10vw;
+        }
+
+        /* Heading section */
+        .heading-section {
+            text-align: center;
+            margin-bottom: 0vw;
+        }
+
+        .heading-section h1 {
+            font-size: 3vw;
+            color: #e0e0e0; /* Lighter heading text */
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .heading-section p {
+            font-size: 1.2vw;
+            color: #aaa; /* Subtle gray for paragraphs */
+        }
+
+        /* Content section */
+        .content-section {
+            display: flex;
+            
+            background-color: #fff;
+            /*change*/
+            background: linear-gradient(170deg, #fff, #d7d1ffff);
+            background: linear-gradient(170deg, #fff, #c4e4ff);
+            /*border: .3vw solid rgba(255, 255, 255, 0.7);*/
+            
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5vw;
+            border-radius: 15px; /* Slightly rounded corners */
+            position: relative; /* Positioning for the gradient border */
+            overflow: hidden; /* Hides overflow */
+            padding: 1vw; /* Padding inside the card */
+            /*background-color: #0d041c;
+            border: .5vw solid rgba(101, 30, 227, 0.7);*/
+            /*change*/
+            box-shadow: 0 0 10vw rgba(101, 30, 227, .3);
+            box-shadow: 0 0 10vw rgba(0, 33, 165, .3);
+        }
+
+        .content-section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .content-section img {
+            width: 30%; /* Reduced image size */
+            border-radius: 10px; /* Rounded corners for the image */
+            box-shadow: 0 2px 2px rgba(255, 255, 255, .3); /* Smooth shadows */
+            
+        }
+
+        .content-section .text h2 {
+            font-size: 2.5vw; /* Slightly smaller text */
+            text-decoration: underline; /* Lighter text color */
+        }
+        .content-section .text {
+            width: 65%; /* Adjust text section width */
+            font-size: 1.8vw; /* Slightly smaller text */
+            color: #1c1c21; /* Slightly lighter text */
+        }
+
+        /* Carousel styles */
+        /* Carousel styles */
+        .carousel {
+            width: 70vw; /* Width of the carousel */
+            display: flex; /* Horizontal layout */
+            justify-content: center; /* Center carousel items */
+            align-items: center; /* Vertically align items */
+            margin: 5vw auto; /* Margin for spacing above and below */
+            position: relative; /* Positioning context */
+        }
+
+        .carousel .arrow {
+            font-size: 4vw; /* Size of the arrow buttons */
+            cursor: pointer; /* Pointer on hover */
+            padding: 10px; /* Padding around arrows */
+            color: #aaa; /* Default color for arrows */
+            transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+            margin: 0 1vw; /* Reduced space between arrows */
+        }
+
+        .carousel .arrow:hover {
+            color: #fff; /* Arrow color on hover */
+            transform: scale(1.2); /* Scale effect on hover */
+        }
+
+        .carousel-items {
+            display: flex; /* Horizontal layout for items */
+            justify-content: center; /* Center items */
+            align-items: center; /* Vertically align items */
+            width: 100%; /* Full width for items */
+            position: relative; /* Relative positioning for inner items */
+        }
+
+        .carousel-item {
+            width: 12vw; /* Width for each card */
+            height: 17vw;
+            margin: 0 0 .2vw; /* Decreased margin between cards */
+            transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out, background-color .7s ease-in-out, border-color .5s ease-in-out, box-shadow 0.5s ease-in-out;;
+            text-align: center; /* Center text within the card */
+            padding: 1vw; /* Padding within cards */
+            border-radius: 15px; /* Rounded corners */
+            /*change
+            background-color: #1a1a1a; /* Default background color */
+            background-color: #0021A5;
+            /*change
+            box-shadow: 0 4px 10px rgba(101, 30, 227, 0.5); /* Box shadow */
+            box-shadow: 0 4px 10px rgba(0, 33, 165, 0.5);
+            transform: scale(0.7); /* Scale for inactive items */
+            filter: blur(1px); /* Blur effect for inactive items */
+            opacity: 0.5; /* Faded appearance for inactive items */
+            text-decoration: none;
+        }
+
+        /* Centered carousel item styles */
+        .carousel-item.active {
+            transform: scale(1); /* Scale up when active */
+            filter: blur(0); /* Clear focus when active */
+            opacity: 1; /* Fully visible when active */
+            /*change
+            background-color: rgba(115, 40, 250, 0.5); /* Active background color */
+            background-color: rgba(0, 33, 165, .8);
+            background-color: rgba(0, 33, 165, .8);
+        }
+
+        .carousel-item:not(.active) {
+            /*change
+            background-color: #0d041c; /* Background for inactive items */
+            background-color: #fa4616;
+            border-color: rgba(250, 70, 22, .8);
+            box-shadow: 0 4px 10px rgba(250, 70, 22, 0.5);
+        }
+
+        /* Image styles */
+        .carousel-item.active img {
+            height: 12vw; /* Adjust height for images */
+            width: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Rounded corners for images */
+            /*change
+            border: 2px solid rgba(115, 40, 250, .5); /* Border for images */
+            border-color: rgba(0, 33, 165, .8);
+            
+        }
+        .carousel-item img {
+            height: 12vw; /* Adjust height for images */
+            width: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Rounded corners for images */
+            /*change
+            border: 2px solid rgba(115, 40, 250, .5); /* Border for images */
+            border: 2px;
+            border-color: rgba(250, 70, 22, .8);
+
+        }
+
+        .carousel-item p {
+            font-size: 1.2vw; /* Font size for text */
+            color: #fff; /* Text color */
+            margin-top: .3vw; /* Margin above text */
+            margin-bottom: 0vw
+        }
+        .carousel-item p2 {
+            font-size: .9vw; /* Font size for text */
+            color: #ccc; /* Text color */
+        }
+
+
+
+        .bob {
+            opacity: 0;
+            transform: translateY(50px); /* Start slightly below their final position */
+            transition: transform 0.8s ease-out, opacity 0.8s ease-out; /* Smooth rise-up animation */
+        }
+
+        /* When the element comes into view, it will rise up */
+        .bob.rise-up {
+            opacity: 1;
+            transform: translateY(0); /* Move up to its natural position */
+        }
+
+        
+
+
+    </style>
+    <style>
+        /* General styling for body 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #090912, #04030f);  
+            flex-direction: column;
+            color: #d3d3d3;  */
+        }
+
+        
+        .content {
+            width: 85vw;
+            max-width: 1200px; 
+            padding: 2vw;
+            box-sizing: border-box;
+        }
+
+        /* Styling for the table container */
+        .table-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 2vw; /* Space between tables */
+        }
+
+        /* Styling for the tables */
+        table {
+            width: 100%; /* Tables will take 32% of viewport width */
+            margin: 0;
+            border-collapse: collapse;
+            table-layout: fixed;
+            box-sizing: border-box;
+            overflow-y: auto;
+            height: 40vh; /* Fixed height for scrollable tables */
+            display: block; /* To make table scrollable */
+            border-radius: 12px;  /* Rounded corners for tables */
+            color: #fff; /* White text for better contrast */
+            background-color: #444;  /* Default dark table background */
+            transition: all 0.3s ease;  /* Smooth transition for hover effects */
+        }
+
+        /* Table headers */
+        th {
+            background-color: #333; /* Darker header background */
+            color: #fff; /* White text for the header */
+            position: sticky;
+            top: 0; /* Sticky header */
+            z-index: 1;
+        }
+
+        /* Custom scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;  /* Width of the scrollbar */
+            height: 8px; /* Height of the scrollbar for horizontal scrolling */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #888;  /* Thumb color */
+            border-radius: 10px;      /* Rounded corners */
+            border: 2px solid #282c34; /* Border around the thumb */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #555;  /* Darker color on hover */
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #282c34; /* Background color of the track */
+            border-radius: 10px;        /* Rounded corners for track */
+        }
+
+        ::-webkit-scrollbar-track:hover {
+            background-color: #444;  /* Track color on hover */
+        }
+
+        /* For Firefox, use scrollbar-width and scrollbar-color */
+        * {
+            scrollbar-width: thin; /* Thin scrollbar for Firefox */
+            scrollbar-color: #888 #282c34; /* Thumb color and track color */
+        }
+
+        .table-container > div {
+            flex: 1; /* Ensure equal width for all tables */
+            min-width: 0; /* Prevent overflow issues */
+        }
+
+        th, td {
+            padding: 1.5vw;
+            border: 1px solid #555; /* Darker border */
+            text-align: left;
+            word-wrap: break-word;
+            /*min-width: 6vw;*/
+            color: #fff;  /* White text for table cells */
+        }
+
+        /* Styling for headings */
+        h3 {
+            text-align: center;
+            margin-top: 2vh;
+            font-size: 3vw;
+            color: #f4f4f4; /* Light color for headings */
+            text-decoration: none;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 2vw;
+            margin-bottom: 1vw;
+            color: #f4f4f4; /* Light color for subheadings */
+        }
+
+        /* Styling for error messages */
+        .error-message {
+            color: red;
+            text-align: center;
+            font-size: 2vw;
+            margin-top: 2vh;
+        }
+
+        /* Styling for the slider */
+        .slider-container {
+            text-align: center;
+            margin-bottom: 2vw;
+        }
+
+        /* Ensuring the table columns are equal in size */
+        td, th {
+            width: 50%; /* Table cells will take equal space */
+        }
+
+        /* Styling for the year selection sliders */
+        #yearSlider1, #yearSlider2 {
+            width: 60%;
+            margin-top: 1vh;
+            background-color: #444;  /* Dark background for sliders */
+            color: #fff;  /* Light text for slider values */
+        }
+
+        /* Custom colors for the sliders */
+        #yearSlider1 {
+            background-color: #0021A5;  /* Blue slider */
+        }
+
+        #yearSlider2 {
+            background-color: #FA4616;  /* Red-orange slider */
+        }
+
+        #yearDisplay1, #yearDisplay2 {
+            font-size: 2vw;
+            margin-left: 1vw;
+        }
+
+        /* Hover effect for tables */
+        table:hover {
+            box-shadow: 0 0 3px rgba(255, 255, 255, 0.6), 0 0 15px rgba(255, 255, 255, 0.6);  /* Glowing effect */
+        }
+        td, th #sharedTable {
+            width: 50%; /* Ensure the shared table uses the full width of its container */
+        }
+        label {
+            font-size: 1.7vw;
+        }
+        .boxbackground {
+            background: linear-gradient(135deg, #282829, #282829);
+            padding: 3vw; /* Add padding for space inside the box */
+            border-radius: 10px; /* Optional: rounded corners */
+            box-shadow: 0 0px 50px rgba(255, 255, 255, 0.4); /* Optional: adds a subtle shadow */
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Container for all content -->
+    <div class="container">
+
+        <!-- Broad Heading -->
+        <!-- Banner Section
+        <div class="banner" id="banner">
+            <h1>The Evolution of Technology</h1>
+            <p>A journey through the ages of innovation, from the birth of computers to the future of AI.</p>
+        </div>-->
+        <div class="navbar">
+            <h1>Archives of UFCS</h1>
+            <button>Home</button>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+
+
+        <!-- Content Section 1 -->
+        <div class="content-section">
+            <div class="text">
+                <h2>CS Major Origins</h2>
+                <p>Computer science began to be established as a distinct academic discipline in the 1950s and early 1960s. The world's first computer science degree program, at Cambridge, began at the University of Cambridge Computer Laboratory in 1953.</p>
+            </div>
+        <img src="horizontal.jpg" alt="Old computer">
+        </div>
+        
+
+        <!-- Carousel 1 -->
+        <div class="bob">
+            <div class="carousel">
+                <div class="arrow" id="prev1">&#10094;</div>
+                <div class="carousel-items" id="carousel1">
+                    <a href="bobRamey.html" class="carousel-item active">
+                        <img src="robRamey.jpg" alt="Tech evolution 1">
+                        <p>Robert “Bob” Ramey</p>
+                        <p2>Founding Chair of CISE</p2>
+                    </a>
+                    <div class="carousel-item">
+                        <img src="charlesBennett.jpg" alt="Tech evolution 2">
+                        <p>Charles Bennett</p>
+                        <p2>President of the time</p2>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="phd.jpg" alt="Tech evolution 3">
+                        <p>Stanley Su, Ph.D. & Herman Lam, Ph.D.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="md.jpg" alt="Tech evolution 4">
+                        <p>Leslie H. Oliver, Ph.D. & Edward A. Geiser, M.D.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Juan-Gilbert.jpg" alt="Tech evolution 5">
+                        <p>Juan E. Gilbert, Ph.D.,</p>
+                        <p2>the Banks Family Preeminence Endowed Professor</p2>
+                    </div>
+                </div>
+                <div class="arrow" id="next1">&#10095;</div>
+            </div>
+        </div>
+
+        <!-- Content Section 2 -->
+        <div class="bob">
+            <div class="content-section">
+                <img src="horizontal.jpg" alt="AI growth">
+                <div class="text">
+                    <p>Artificial intelligence is rapidly transforming industries. From healthcare to autonomous systems, AI is setting the stage for the future of innovation.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Carousel 2 -->
+        <div class="bob">
+            <div class="carousel">
+                <div class="arrow" id="prev2">&#10094;</div>
+                <div class="carousel-items" id="carousel2">
+                    <div class="carousel-item active">
+                        <img src="vertical.jpg" alt="AI in healthcare">
+                        <p>Card 1 - In Focus</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="vertical.jpg" alt="AI in robotics">
+                        <p>Card 2 - Side</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="vertical.jpg" alt="AI in automation">
+                        <p>Card 3 - Side</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="vertical.jpg" alt="AI in automation">
+                        <p>Card 4 - Side</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="vertical.jpg" alt="AI in automation">
+                        <p>Card 5 - Side</p>
+                    </div>
+                </div>
+                <div class="arrow" id="next2">&#10095;</div>
+            </div>
+        </div>
+
+        
+        <div class="content">
+            <div class="boxbackground">
+            <h3>Class Comparison: Shared and Unique Classes</h3>
+
+            <!-- Sliders for selecting years -->
+            <div class="slider-container">
+                <label for="yearSlider1">Select Year 1:</label>
+                <input type="range" id="yearSlider1" min="1972" max="2024" value="1972">
+                <span id="yearDisplay1">1972</span>
+
+                <br><br>
+
+                <label for="yearSlider2">Select Year 2:</label>
+                <input type="range" id="yearSlider2" min="1972" max="2024" value="2024">
+                <span id="yearDisplay2">2024</span>
+            </div>
+
+            <div class="table-container">
+                <!-- Shared, Year 1, and Year 2 Tables -->
+                <div>
+                    <h4>Shared Classes</h4>
+                    <table id="sharedTable">
+                        <thead>
+                            <tr>
+                                <th>Class Code</th>
+                                <th>Class Name</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <h4 id="year1TableTitle"></h4>
+                    <table id="year1Table">
+                        <thead>
+                            <tr>
+                                <th>Class Code</th>
+                                <th>Class Name</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <h4 id="year2TableTitle"></h4>
+                    <table id="year2Table">
+                        <thead>
+                            <tr>
+                                <th>Class Code</th>
+                                <th>Class Name</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Error messages for missing files -->
+            <div id="errorMessages"></div>
+        </div>
+        </div>
+
+        
+
+    </div>
+
+
+    <script>
+        // Select the carousel element
+        const carousel = document.querySelector('.carousel');
+
+        // Listen for carousel item change events
+        carousel.addEventListener('slide.bs.carousel', function () {
+            // Find the current active item
+            const activeItem = document.querySelector('.carousel-item.active');
+
+            // Add a click event listener to the active item
+            if (activeItem) {
+                activeItem.addEventListener('click', function () {
+                    window.location.href = 'your-target-page.html';
+                });
+            }
+        });
+
+
+
+        
+        // Select all elements with the class 'bob'
+        const bobs = document.querySelectorAll('.bob');
+
+        // Function to check if the element is in view
+        function isInView(element) {
+            const rect = element.getBoundingClientRect();
+            return rect.top < window.innerHeight && rect.bottom > 0;
+        }
+
+        // Function to handle scroll and apply rise-up effect
+        function applyScrollEffect() {
+            bobs.forEach(bob => {
+                if (isInView(bob)) {
+                    // Add class 'rise-up' when the element is in view
+                    bob.classList.add('rise-up');
+                } else {
+                    // Optionally remove the class when the element is out of view
+                    // bob.classList.remove('rise-up');  // Uncomment if you want to reverse the effect
+                }
+            });
+        }
+
+        // Listen for scroll events
+        window.addEventListener('scroll', applyScrollEffect);
+
+
+
+
+        
+        window.onscroll = function() {
+            const banner = document.getElementById('banner');
+            const sticky = banner.offsetTop;
+               if (window.pageYOffset > sticky) {
+                banner.classList.add('sticky');
+            } else {
+                banner.classList.remove('sticky');
+            }
+        };
+        
+
+        // Carousel 1 functionality
+        const carousel1 = document.getElementById('carousel1');
+        const items1 = document.querySelectorAll('#carousel1 .carousel-item');
+        let currentIndex1 = 0;
+
+        function updateCarousel1() {
+            items1.forEach((item, index) => {
+                item.classList.toggle('active', index === currentIndex1);
+            });
+        }
+
+        document.getElementById('next1').onclick = function() {
+            currentIndex1 = (currentIndex1 + 1) % items1.length;
+            updateCarousel1();
+        };
+
+        document.getElementById('prev1').onclick = function() {
+            currentIndex1 = (currentIndex1 - 1 + items1.length) % items1.length;
+            updateCarousel1();
+        };
+
+        updateCarousel1();
+
+        // Carousel 2 functionality
+        const carousel2 = document.getElementById('carousel2');
+        const items2 = document.querySelectorAll('#carousel2 .carousel-item');
+        let currentIndex2 = 0;
+
+        function updateCarousel2() {
+            items2.forEach((item, index) => {
+                item.classList.toggle('active', index === currentIndex2);
+            });
+        }
+
+        document.getElementById('next2').onclick = function() {
+            currentIndex2 = (currentIndex2 + 1) % items2.length;
+            updateCarousel2();
+        };
+
+        document.getElementById('prev2').onclick = function() {
+            currentIndex2 = (currentIndex2 - 1 + items2.length) % items2.length;
+            updateCarousel2();
+        };
+
+        updateCarousel2();
+    </script>
+
+    <script>
+        // Function to load file content (simulate file reading via fetch or direct input)
+        async function loadFile(year) {
+            try {
+                const response = await fetch(`years/${year}.txt`); // Adjust the path if necessary
+                if (!response.ok) {
+                    throw new Error('File not found');
+                }
+                const data = await response.text();
+                return data.split('\n').map(line => line.trim()).filter(line => line);
+            } catch (error) {
+                return null;
+            }
+        }
+
+        // Function to extract the class code and class name from a line (e.g., "COP 3503 | Programming Fundamentals")
+        function extractClassDetails(className) {
+            const parts = className.split('|');
+            return {
+                code: parts[0].trim(),
+                name: parts[1]?.trim() || 'No class name' // If no class name, return a placeholder
+            };
+        }
+
+        // Function to process and display class information
+        async function displayClasses() {
+            const errorMessages = document.getElementById('errorMessages');
+
+            // Reset error messages
+            errorMessages.innerHTML = '';
+
+            // Get selected years from the sliders
+            const year1 = document.getElementById('yearSlider1').value;
+            const year2 = document.getElementById('yearSlider2').value;
+
+            // Display selected years above the sliders
+            document.getElementById('yearDisplay1').textContent = year1;
+            document.getElementById('yearDisplay2').textContent = year2;
+
+            // Load and parse the classes from the selected years
+            const classesYear1 = await loadFile(year1);
+            const classesYear2 = await loadFile(year2);
+
+            // Check for missing files and display error messages
+            if (!classesYear1) {
+                errorMessages.innerHTML += `<p>No "${year1}.txt" file found</p>`;
+            }
+            if (!classesYear2) {
+                errorMessages.innerHTML += `<p>No "${year2}.txt" file found</p>`;
+            }
+
+            // If both files are missing, exit
+            if (!classesYear1 && !classesYear2) {
+                return;
+            }
+
+            // Extract class details (code and name) from both sets of classes
+            const classDetailsYear1 = classesYear1.map(extractClassDetails);
+            const classDetailsYear2 = classesYear2.map(extractClassDetails);
+
+            // Convert to sets for easier comparison (using class code as the key)
+            const setYear1 = new Set(classDetailsYear1.map(details => details.code));
+            const setYear2 = new Set(classDetailsYear2.map(details => details.code));
+
+            // Determine shared classes (based on class codes)
+            const sharedClasses = classDetailsYear1.filter(classDetails => setYear2.has(classDetails.code));
+
+            // Determine classes only in Year 1 and Year 2
+            const onlyYear1 = classDetailsYear1.filter(classDetails => !setYear2.has(classDetails.code));
+            const onlyYear2 = classDetailsYear2.filter(classDetails => !setYear1.has(classDetails.code));
+
+            // Function to populate a table with class data
+            function populateTable(tableId, data, noDataMessage) {
+                const tableBody = document.getElementById(tableId).getElementsByTagName('tbody')[0];
+                tableBody.innerHTML = '';  // Clear previous content
+
+                // Ensure the table has a fixed 5 rows, fill with blank if needed
+                const rowsToFill = 5 - data.length;
+                for (let i = 0; i < data.length; i++) {
+                    const row = tableBody.insertRow();
+                    // First column: class code
+                    const classCodeCell = row.insertCell(0);
+                    classCodeCell.textContent = data[i].code;
+
+                    // Second column: class name
+                    const classNameCell = row.insertCell(1);
+                    classNameCell.textContent = data[i].name;
+                }
+
+                // If the table has fewer than 5 rows, add blank rows to keep the height
+                for (let i = 0; i < rowsToFill; i++) {
+                    const row = tableBody.insertRow();
+                    row.insertCell(0); // Empty cell
+                    row.insertCell(1); // Empty cell
+                }
+            }
+
+            // Populate tables with class data
+            populateTable('sharedTable', sharedClasses, 'No shared classes available.');
+            document.getElementById('year1TableTitle').textContent = `Year ${year1}`;
+            populateTable('year1Table', onlyYear1, 'No Year 1 classes available.');
+            document.getElementById('year2TableTitle').textContent = `Year ${year2}`;
+            populateTable('year2Table', onlyYear2, 'No Year 2 classes available.');
+        }
+
+        // Run displayClasses function when the page loads and when sliders change
+        displayClasses();
+        document.getElementById('yearSlider1').addEventListener('input', displayClasses);
+        document.getElementById('yearSlider2').addEventListener('input', displayClasses);
+    </script>
+</body>
+</html>

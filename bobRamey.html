@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert "Bob" Ramey - Wikipedia</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Dark theme styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        /* Navbar container */
+        .navbar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 5vw;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 2vw;
+          z-index: 100;
+          overflow: hidden;
+          /*change*/
+          background-color: #5b42f3;
+          background-color: #FA4616;
+        }
+
+        /* Title in the navbar */
+        .navbar h1 {
+          color: white;
+          font-size: 1.8vw;
+        }
+
+        /* Button in the navbar */
+        .navbar button {
+          padding: 1vw 1.5vw;
+          background-color: white;
+          /*change*/
+          color: #5b42f3;
+          color: #0021A5;
+          border: 1vw white;
+          border-radius: 50px;
+          cursor: pointer;
+          margin-right: 4vw;
+        /* Font settings */
+          font-size: 1vw;
+          font-family: 'Barlow', sans-serif; /* Use quotes for font family names with multiple words */
+          font-weight: bold; /* Makes the text bold */
+          /* Transition for smooth scaling */
+          transition: transform 0.3s ease; /* Adjust duration and easing as needed */
+        }
+
+        .navbar button:hover {
+          transform: scale(1.1); /* Scales the button to 120% of its original size */
+        }
+
+        /* Wave effect behind the navbar */
+        .wave {
+          position: absolute;
+          width: 150vw; /* Larger width to ensure full coverage */
+          height: 150vw;
+          opacity: 0.6;
+          top: -50%;
+          left: -50%;
+          /*change
+          background: linear-gradient(744deg, #af40ff, #5b42f3 60%, #00ddeb);*/
+          background: linear-gradient(744deg, #0021A5, #0021A5 70%,#FA4616);
+          border-radius: 40%;
+          animation: wave 55s infinite linear;
+          z-index: -1; /* Keep waves behind the navbar content */
+        }
+
+        .wave:nth-child(2) {
+          animation-duration: 50s;
+          top: -60%;
+        }
+
+        .wave:nth-child(3) {
+          animation-duration: 45s;
+          top: -70%;
+        }
+
+        /* Wave animation */
+        @keyframes wave {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+
+        
+
+        /* Page layout */
+        .content {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .title {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: #bb86fc;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #999;
+            margin-bottom: 2rem;
+        }
+
+        /* Image and text */
+        .profile-image {
+            display: block;
+            width: 200px;
+            height: 250px;
+            background-color: #333;
+            border-radius: 8px;
+            margin-right: 1rem;
+        }
+
+        .profile {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+
+        .profile-info {
+            max-width: 70%;
+        }
+
+        /* Section headings */
+        h2 {
+            color: #FA4616;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.8rem;
+            color: #666;
+            border-top: 1px solid #333;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Archives of UFCS</h1>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+
+    <!-- Content section -->
+    <div class="content">
+        <!-- Page title and subtitle -->
+        <h1 class="title">Robert “Bob” Ramey</h1>
+        <div class="subtitle">Founding Chair of CISE | Computer Science Pioneer</div>
+
+        <!-- Profile section with image and basic info -->
+        <div class="profile">
+            <div class="profile-image">
+                <!-- Placeholder for image -->
+                <img src="robRamey.jpg" alt="Robert Bob Ramey" style="width:100%; height:100%; border-radius: 8px;">
+            </div>
+            <div class="profile-info">
+                <p>Robert "Bob" Ramey is a renowned computer scientist recognized for his pioneering work in the field of computer and information science and engineering (CISE). As the founding chair of the CISE department, Ramey played a crucial role in establishing the curriculum and shaping the future of computer science education.</p>
+            </div>
+        </div>
+
+        <!-- Overview section -->
+        <h2 id="overview">Overview</h2>
+        <p>Bob Ramey dedicated his career to advancing computer science education, establishing robust research programs, and mentoring countless students who have since made significant contributions to the field. His influence is particularly noted in the development of software engineering principles that are now standard in academia and industry.</p>
+
+        <!-- Career section -->
+        <h2 id="career">Career</h2>
+        <p>Ramey began his career as an educator with a vision for interdisciplinary studies that integrate computing and technology. His leadership at the University of Florida laid the foundation for what has become one of the leading computer science departments in the country.</p>
+
+        <!-- Legacy section -->
+        <h2 id="legacy">Legacy</h2>
+        <p>Beyond his administrative achievements, Ramey is remembered for his dedication to his students and his vision for technology as a force for positive change. His contributions are celebrated through the annual "Ramey Lecture Series" hosted by the CISE department.</p>
+
+        <!-- Personal Life section -->
+        <h2 id="personal-life">Personal Life</h2>
+        <p>Known for his love of chess and classical music, Bob Ramey has always pursued a well-rounded life, finding inspiration in art and logic alike. Today, he enjoys a quiet life surrounded by family and continues to advocate for education and lifelong learning.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        This is a fictional Wikipedia page for demo purposes only. Not affiliated with Wikipedia or Robert Ramey.
+    </div>
+</body>
+</html>
