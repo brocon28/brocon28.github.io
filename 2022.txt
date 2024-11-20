@@ -1,0 +1,43 @@
+Quest 1 | Gen Ed Humanities
+COP 3502C | Programming Fundamentals 1 (Critical Tracking)
+EGN 2020C | Engineering Design & Society (Gen Ed Physical Sciences)
+MAC 2311 | Analytic Geometry and Calculus 1 (Critical Tracking; State Core Gen Ed Mathematics)
+
+COP 3503C | Programming Fundamentals 2
+COT 3100 | Applications of Discrete Structures
+MAC 2312 | Analytic Geometry and Calculus 2 (Critical Tracking; Gen Ed Mathematics)
+PHY 2048 & 2048L | Physics with Calculus 1 and Laboratory (Critical Tracking; State Core Gen Ed Physical Sciences)
+
+ENC 1101 or ENC 1102 | Expository and Argumentative Writing or Argument and Persuasion (State Core GE Composition; Writing Requirement: 6,000 words)
+State Core Gen Ed Biological or Physical Sciences
+State Core Gen Ed Humanities
+
+CDA 3101 | Introduction to Computer Organization
+COP 3530 | Data Structures and Algorithm
+MAC 2313 | Analytic Geometry and Calculus 3 (Critical Tracking; Gen Ed Mathematics)
+PHY 2049 & 2049L | Physics with Calculus 2 and Laboratory (Critical Tracking; Gen Ed Physical Sciences)
+
+CEN 3031 | Introduction to Software Engineering
+CIS 4301 | Information and Database Systems 1
+ENC 3246 | Professional Communication for Engineers (Gen Ed Composition; Writing Requirement: 6,000 words)
+MAS 3114 or MAS 4105 | Computational Linear Algebra or Linear Algebra 1
+Gen Ed Social and Behavioral Sciences with Diversity or International
+
+Quest 2 | Gen Ed Social and Behavioral Sciences OR Gen Ed Biological or Physical Sciences OR Gen Ed Humanities
+COP 4600 | Operating Systems
+STA 3032 | Engineering Statistics
+Technical elective
+
+COP 4020 | Programming Language Concepts
+COP 4XXX | Algorithm Abstraction and Design
+Interdisciplinary electives
+Technical elective
+
+CNT 4007 | Computer Network Fundamentals
+EGS 4034 or CGS 3065 | Engineering Ethics and Professionalism or Legal and Social Issues in Computing
+Technical electives
+Interdisciplinary elective
+
+CIS 4913C or CIS 4914 | Integrated Product and Process Design 2 (4EG) or Senior Project
+Technical electives
+Interdisciplinary electives

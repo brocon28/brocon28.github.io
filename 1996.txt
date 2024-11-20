@@ -1,0 +1,24 @@
+CIS 3020 | Introduction to CIS
+CDA 3101 | Intro. to Computer Organization
+COT 3100 | Applications of Discrete Structures
+COP 3530 | Data and Program Structures
+CEN 3031 | Intro. to Software Engineering
+COP 4600 | Systems Programming
+CIS 4914 | Computer Engineering Design
+MAS 3114 | Linear Algebra
+COT 4501 | Numerical Analysis - A Computational Approach
+STA 4321 | Mathematical Statistics
+EEL 3111 | Circuits 1
+EEL 3112 | Circuits 2
+BEL 3304 | Electronic Circuits 1
+EEL 3303L | Electrical Circuits Lab
+BEL 4304L | Electronics Lab
+EEL 3701C | Intro. to Digital Systems
+EEL 4712C | Digital Design
+EEL 4744C | Microprocessor Applications
+EEL 3396 | Solid State Elec. Devices
+EGM 3500 | Elements of Statics
+EML 3100 | Thermodynamics I
+MAC 2311 | Anal Geometry & Calc 1 (GE-M)
+MAC 2312 | Anal Geometry & Calc 2 (GE-M)
+MAC 2313 | Anal Geometry & Calc 3 (GE-M)

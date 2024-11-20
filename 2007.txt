@@ -1,0 +1,52 @@
+ENC 1101 | Writing Academic Arguments
+CHM 2045 | General Chemistry 1 (GE-P)
+MAC 2311 | Analytic Geometry and Calculus 1 (GE-M)
+CHM 2045L | General Chemistry Laboratory 1 (GE-P)
+Social and Behavioral Sciences (GE-S)
+Humanities (GE-H)
+
+CHM 2046 | General Chemistry 2 (GE-P) or
+CHM 2051, PHY 2464, a 3000+ level PHY course or a 2000+ level non-CHM or non-PHY course with a GE-P or B designation.
+MAC 2312 | Analytic Geometry and Calculus 2 (GE-M)
+Humanities (GE-H)
+ENC 2210 | Technical Writing (GE-C) or
+ENC 3254 | Professional Writing in the Discipline (GE-C)
+
+MAC 2313 | Analytic Geometry and Calculus 3 (GE-M)
+PHY 2048 and 2048L | Physics with Calculus 1 (3) and Laboratory (1) (GE-P)
+CIS 3020 | Advanced Programming Fundamentals for CIS Majors (GE-M) or
+CIS 3022 and 3023 | Programming for CIS Majors 1 and 2
+Social and Behavioral Sciences (GE-S)
+
+MAP 2302 | Elementary Differential Equations (GE-M)
+PHY 2049 and 2049L | Physics with Calculus 2 (3) and Laboratory (1)
+EEL 3701C | Digital Logic and Computer Systems
+Humanities (GE-H)
+
+COT 3100 | Applications of Discrete Structures
+CDA 3101 | Introduction to Computer Organization
+EEL 3111C | Circuits 1
+MAS 3114 | Computational Linear Algebra or
+MAS 4105 | Linear Algebra 1
+Engineering Core, from approved list
+
+EEL 4712C | Digital Design or
+EEL 4713C | Digital Computer Architecture
+COP 3530 | Data Structures and Algorithms
+COT 4501 | Numerical Analysis - A Computational Approach
+EEL 3135 | Discrete-Time Signals and Systems or
+EEL 3304C | Electronic Circuits 1
+
+COP 4600 | Operating Systems
+STA 3032 | Engineering Statistics
+CISE Technical Elective
+
+CEN 4500C | Computer Network Fundamentals
+CEN 3031 | Introduction to Software Engineering
+EEL 4744C | Microprocessor Applications
+Engineering Core, from an approved list
+Technical Elective
+
+CIS 4914 | Senior Project (see adviser)
+EGN 4034 | Professional Ethics
+Technical Electives, from an approved list of CISE courses

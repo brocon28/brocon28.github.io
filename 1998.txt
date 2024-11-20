@@ -1,0 +1,47 @@
+ENC 1101 | English Composition 1
+Social and Behavioral Sciences (GE)
+Humanities (GE)
+MAC 2311 | Anal Geometry & Calc 1 (GE-M)
+CHM 2045 | General Chemistry (GE-P)
+CHM 2045L | General Chemistry Lab (GE-P)
+
+ENC 2210 | Technical Writing (GE-C)
+MAC 2312 | Anal Geometry & Calc 2 (GE-M)
+CHM 2046 | General Chemistry (GE-P)
+Social & Behavioral Sciences (GE)
+
+MAC 2313 | Anal Geometry & Calc 3 (GE-M)
+PHY 3048 | Physics with Lab (GE-P)
+CIS 3020 | Intro to CIS (GE-M)
+
+Humanities (GE)
+EGM 3311 | Intro to Engineering Analysis
+PHY 3049 | Physics with Lab
+EEL 3701C | Digital Logic & Computer Systems
+
+COT 3100 | Applied Discrete Structures
+CDA 3101 | Intro to Computer Org
+EEL 3111 | Circuits 1
+EEL 3303L | Electrical Circuits Lab
+MAS 3114 | Linear Algebra
+Engineering Core
+
+BEL 3112 | Circuits 2
+EEL 4712C | Digital Design
+COP 3530 | Data Structures & Algorithms
+COT 4501 | Numerical Analysis
+
+BEL 3304 | Electronic Circuits 1
+EEL 4304L | Electronics Lab
+STA 4321 | Math Statistics
+General Technical Elective
+
+COP 4600 | Operating Systems
+CEN 3031 | Intro to Software Engr
+EEL 4744C | Microprocessor Applications
+Engineering Core
+General Elective
+
+CIS 4914 | Computer Systems Design
+EGN 4032 | Professional Issues
+Technical Electives

@@ -1,0 +1,44 @@
+CIS 3020 | Introduction to CIS
+CIS 4301 | Information System Design and Development
+MAC 2311 | Analytic Geometry and Calculus 1
+MAC 2312 | Analytic Geometry and Calculus 2
+CIS 4905 | Individual Study in CISE
+CIS 4912C | Integrated Process Design I
+CIS 4913C | Integrated Product Process Design II
+CIS 4914 | Computer System Design
+CIS 4930 | Special Topics in CISE
+CIS 4935 | Senior Seminar
+CIS 4949 | Practical Work in CISE
+CAP 4410 | Introduction to Computer Vision
+CAP 4621 | Artificial Intelligence and Heuristics
+CAP 4730 | Computational Structures in Computer Graphics
+CAP 4800 | Systems Simulation
+CDA 3101 | Introduction to Computer Organization
+CDA 4102 | Computer Architecture
+CEN 3031 | Introduction to Software Engineering
+CEN 4012 | Software System Development
+CEN 4500C | Computer Network Fundamentals
+CGS 2064 | Navigating the Internet
+CGS 2420 | Computer Programming Using FORTRAN
+CGS 2425 | Computer Programming for Engineers
+CGS 2470 | Introduction to Computers for Architecture Majors
+CGS 2531 | Introduction to Computer Programming and Software Packages
+CGS 2532 | Advanced Personal Computer Software Packages
+CGS 2570 | Management of Research Data
+CGS 3063 | Computers and Modern Society
+CGS 3065 | Legal and Social Issues in Computing
+CGS 3090 | Ethics on the Electronic Frontier
+CGS 3403 | Computer Programming Using COBOL
+CGS 3460 | Computer Programming Using C
+CGS 4450 | Cognition and Computation
+CGS 4545 | Databases and Applications
+COP 2121 | COBOL for CIS Majors
+COP 3013 | Survey of Programming Languages
+COP 3530 | Data Structures and Algorithm
+COP 3610 | Survey of Operating Systems
+COP 4020 | Programming Language Concepts
+COP 4331 | Object-oriented Programming
+COP 4600 | Operating Systems
+COP 4620 | Translators and Translator Writing Systems
+COP 4720 | Database Management Systems
+COT 3100 | Applications of Discrete Structures

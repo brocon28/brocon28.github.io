@@ -1,0 +1,50 @@
+Humanities (GE–H, I)
+Foreign Language
+MAC 2311 | Analytic Geometry and Calculus 1 (GE–M)
+Composition (GE–C)
+
+Foreign Language
+PHY 2053 | Physics 1 (4) or
+PHY 2048 | Physics with Calculus 1 (GE–P)
+PHY 2053L or PHY 2048L | Laboratory for PHY 2053 or PHY 2048 (GE–P)
+MAC 2312 | Analytic Geometry and Calculus 2 (GE–M)
+Elective
+
+PHY 2054 | Physics 2 or
+PHY 2049 | Physics with Calculus 2 (GE–P)
+PHY 2054L or PHY 2049L | Laboratory for PHY 2054 or PHY 2049 (GE–P)
+MAC 2313 | Analytic Geometry and Calculus 3 (GE–M)
+CIS 3020 | Advanced Programming Fundamentals for CIS Majors
+Elective (or foreign language if 4-3-3 option)
+
+Humanities (GE–H, I)
+Social and Behavioral Sciences (GE–S)
+COT 3100 | Applications of Discrete Structures (GE–M)
+EEL 3701C | Digital Logic and Computer Systems
+Elective
+
+Humanities (GE–H)
+Biological Science (GE–B)
+Social and Behavioral Sciences (GE–S)
+CDA 3101 | Introduction to Computer Organization
+ENC 2210 | Technical Writing or
+ENC 3254 | Professional Writing in the Discipline (GE–C)
+
+Biological Science (GE–B)
+Social and Behavioral Sciences (GE–S)
+COP 3530 | Data Structures and Algorithms
+MAS 3114 | Computational Linear Algebra
+Elective
+
+CEN 3031 | Introduction to Software Engineering
+CIS 4301 | Information and Database Systems 1 or
+CAP 4800 | Systems Simulation
+COT 4501 | Numerical Analysis – A Computational Approach
+CISE Elective
+Elective
+
+CIS 4914 | Senior Project
+COP 4600 | Operating Systems
+STA 3032 | Engineering Statistics (GE–M)
+CISE Elective
+Electives

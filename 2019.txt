@@ -1,0 +1,47 @@
+CHM 2045 | General Chemistry 1 (Critical Tracking; Gen Ed Physical Sciences)
+CHM 2095 | Chemistry for Engineers 1 (Critical Tracking; Gen Ed Physical Sciences)
+CHM 2045L | General Chemistry 1 Laboratory (Gen Ed Physical Sciences)
+COP 3502 | Programming Fundamentals 1 (Critical Tracking)
+ENC 1101 | Expository and Argumentative Writing (State Core Gen Ed Composition; Writing Requirement: 6,000 words)
+IDS 1161 | What is the Good Life (Gen Ed Humanities)
+MAC 2311 | Analytic Geometry and Calculus 1 (Critical Tracking; State Core Gen Ed Mathematics)
+
+COP 3503 | Programming Fundamentals 2
+COT 3100 | Applications of Discrete Structures
+MAC 2312 | Analytic Geometry and Calculus 2 (Critical Tracking; Gen Ed Mathematics)
+PHY 2048 | Physics with Calculus 1 (Critical Tracking; State Core Gen Ed Physical Sciences)
+PHY 2048L | Laboratory for Physics with Calculus 1 (Gen Ed Physical Sciences)
+
+COP 3530 | Data Structures and Algorithm
+MAC 2313 | Analytic Geometry and Calculus 3 (Critical Tracking; Gen Ed Mathematics)
+PHY 2049 | Physics with Calculus 2 (Critical Tracking; Gen Ed Physical Sciences)
+PHY 2049L | Laboratory for Physics with Calculus 2 (Gen Ed Physical Sciences)
+State Core Gen Ed Social and Behavioral Sciences
+
+CEN 3031 | Introduction to Software Engineering
+ENC 3246 | Professional Communication for Engineers (Gen Ed Composition; Writing Requirement: 6,000 words)
+MAS 3114 or MAS 4105 | Computational Linear Algebra or Linear Algebra 1
+Gen Ed Social and Behavioral Sciences with Diversity or International
+
+CDA 3101 | Introduction to Computer Organization
+CIS 4301 | Information and Database Systems 1
+COT 4501 | Numerical Analysis: a Computational Approach
+State Core Gen Ed Humanities with Diversity or International
+Interdisciplinary elective
+
+COP 4600 | Operating Systems
+EEL 3701C | Digital Logic and Computer Systems
+ENC 1102 | Argument and Persuasion (Gen Ed Composition; Writing Requirement: 6,000 words)
+EGN 4034 | Engineering Ethics
+Technical electives
+
+Internship / Co-op (if desired)
+
+CNT 4007C | Computer Network Fundamentals
+Technical electives
+Interdisciplinary electives
+
+CIS 4913C or CIS 4914 | Integrated Product and Process Design 2 (4EG) or Senior Project
+STA 3032 | Engineering Statistics
+Technical elective
+Interdisciplinary electives

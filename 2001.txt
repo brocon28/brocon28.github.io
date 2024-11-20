@@ -1,0 +1,45 @@
+Humanities (GE) | Humanities
+Foreign Language | Foreign Language
+MAC 2311 | Analytic Geometry and Calculus I (GE-M)
+Composition | Composition
+Critical Tracking Criteria | Critical Tracking Criteria
+Biological Science (GE-B) | Biological Science
+ENC 2210 | Technical Writing
+MAC 2312 | Analytic Geometry and Calculus 2 (GE-M)
+Electives | Electives
+Critical Tracking Criteria | Critical Tracking Criteria
+PHY 2053L or 2048L | Physics Lab (GE-P)
+PHY 2053 | Physics I (GE-P) or PHY 2048 | Physics with Calculus 1 (GE-P)
+MAC 2313 | Analytic Geometry and Calculus 3 (GE-M)
+CIS 3020 | Introduction to Computer and Information Sciences
+Elective | Elective
+Critical Tracking Criteria | Critical Tracking Criteria
+Humanities (GE) | Humanities
+Social & Behavioral Science (GE-S) | Social & Behavioral Science
+COT 3100 | Applied Discrete Structures (GE-M)
+PHY 2054L or 2049L | Physics Lab (GE-P)
+PHY 2054 | Physics 2 Or PHY 2049 | Physics with Calculus 2 (GE-P)
+Electives | Electives
+Critical Tracking Criteria | Critical Tracking Criteria
+GPA Criteria | GPA Criteria
+JUNIOR YEAR | JUNIOR YEAR
+Humanities (GE-H) | Humanities
+Social & Behavioral Sciences (GE) | Social & Behavioral Sciences
+COP 3530 | Data & Algorithm Structures
+EEL 3701C | Digital Logic and Computer Systems
+Critical Tracking Criteria | Critical Tracking Criteria
+Biological Science (GE-B) | Biological Science
+CDA 3101 | Introduction to Computer Organization
+STA 2023 | Intro to Statistics Or STA 3032 | Engineering Statistics
+MAS 3114 | Computational Linear Algebra
+Social & Behavioral Science (GE-S) | Social & Behavioral Science
+SENIOR YEAR | SENIOR YEAR
+CEN 3031 | Intro to Software Engineering
+COP 4720 | Database Management Systems Or CAP 4800 | System Simulation
+COT 4501 | Numerical Analysis
+CISE Elective | CISE Elective
+Elective | Elective
+CIS 4914 | Senior Project
+COP 4600 | Operating Systems
+STA 4033 | Computational Statistics
+CISE Elective | CISE Elective

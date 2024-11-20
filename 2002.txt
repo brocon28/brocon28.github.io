@@ -1,0 +1,46 @@
+CAP 4410 | Artificial Intelligence
+CAP 4621 | Computer Graphics
+MAC 2311 | Analytic Geometry and Calculus 1
+MAC 2312 | Analytic Geometry and Calculus 2
+CAP 4680 | Machine Learning
+CAP 4730 | Software Engineering
+CAP 4800 | Computer Vision
+CDA 3101 | Digital Logic Design
+CDA 4102 | Microprocessor Systems
+CEN 3031 | Introduction to Software Engineering
+CEN 4012 | Software Engineering Principles
+CEN 4500C | Network Security
+CGS 2414 | Computer Programming for Non-Majors
+CGS 2420 | Introduction to Computer Programming
+CGS 2425 | C++ Programming
+CGS 2470 | Introduction to Game Programming
+CGS 2531 | Internet and Web Programming
+CGS 2532 | Programming for the Web
+CGS 2570 | Computer Networking
+CGS 3063 | Business Programming
+CGS 3065 | Data Structures and Algorithms
+CGS 3066 | Object-Oriented Programming
+CGS 3090 | Introduction to Database Management
+CGS 3403 | Object-Oriented Design
+CGS 3460 | Computer Security
+CGS 3464 | Cryptography
+CGS 4545 | Data Communication
+CIS 3020 | Introduction to Information Systems
+CIS 4301 | Information Systems Analysis and Design
+CIS 4905 | Special Topics in Information Systems
+CIS 4912C | Internship in Information Systems
+CIS 4913C | Information Systems Project
+CIS 4914 | Research in Information Systems
+CIS 4930 | Seminar in Information Systems
+CIS 4940 | Capstone Project in Information Systems
+CIS 4949 | Information Systems Field Study
+COP 2121 | Introduction to Computer Science
+COP 3013 | Programming in C
+COP 3530 | Data Structures and Algorithms
+COP 3610 | Software Engineering Concepts
+COP 4020 | Operating Systems
+COP 4331 | Database Systems
+COP 4600 | Computer Networks
+COP 4620 | Distributed Systems
+COP 4720 | Internet Programming
+COT 3100 | Discrete Mathematics for Computing

@@ -1,0 +1,17 @@
+Engineering Core | Core Engineering Principles (subject to department)
+CHN 251 | Intermediate Chinese I
+CHN 252 | Intermediate Chinese II
+MAC 2311 | Analytic Geometry and Calculus 1
+MAC 2312 | Analytic Geometry and Calculus 2
+CHN 253 | Advanced Chinese
+CIS 323 | Software Engineering
+CIS 411 | Data Structures and Algorithms
+CIS 453 | Database Systems
+CIS 461 | Computer Networks
+CIS 498 | Senior Capstone in Computer Science
+MS 324 | Materials Science Applications
+STA 410 | Statistical Analysis for Engineers
+Technical Electives | Engineering Technical Elective
+Restricted Technical Electives | Specialized Engineering Elective
+Non-Technical Electives | Non-Technical Elective
+Free Electives | Free Elective (any field of study)

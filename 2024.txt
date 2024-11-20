@@ -1,0 +1,32 @@
+ENC 3246 | Professional Communication for Engineers
+MAC 2311 | Analytic Geometry and Calculus 1
+MAC 2312 | Analytic Geometry and Calculus 2
+MAC 2313 | Analytic Geometry and Calculus 3
+MAS 3114 | Computational Linear Algebra
+PHY 2048 & 2048L | Physics with Calculus 1 and Laboratory for Physics with Calculus 1
+PHY 2049 & 2049L | Physics with Calculus 2 and Laboratory for Physics with Calculus 2
+STA 3032 | Engineering Statistics
+COP 3502C | Programming Fundamentals 1
+COP 3503C | Programming Fundamentals 2
+COP 3530 | Data Structures and Algorithm
+COT 3100 | Applications of Discrete Structures
+CDA 3101 | Introduction to Computer Organization
+CEN 3031 | Introduction to Software Engineering
+CIS 4301 | Information and Database Systems 1
+CIS 4914 | Senior Project
+EGN 4952 | Integrated Product and Process Design 2
+CNT 4007 | Computer Network Fundamentals
+COP 4020 | Programming Language Concepts
+COP 4533 | Algorithm Abstraction and Design
+COP 4600 | Operating Systems
+EGS 4034 | Engineering Ethics and Professionalism
+CGS 3065 | Legal and Social Issues in Computing
+CIS 4905 | Individual Study in CISE
+CIS 4930 | Special Topics in CISE
+CIS 4940 | Practical Work
+CIS 4949 | Co-Op Work in CISE
+EGN 4912 | Engineering Directed Independent Research
+EGN 4951 | Integrated Product and Process Design 1
+EIN 3354 | Engineering Economy
+EEL 3701C | Digital Logic and Computer Systems
+EEL 4744C | Microprocessor Applications

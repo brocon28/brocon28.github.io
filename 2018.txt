@@ -1,0 +1,49 @@
+CHM 2045 | General Chemistry 1 or
+CHM 2095 | Chemistry for Engineers 1 (GE-P)
+CHM 2045L | General Chemistry 1 Laboratory (GE-P)
+COP 3502 | Programming Fundamentals 1
+ENC 1101 | Expository and Argumentative Writing (State Core GE-C; E6)
+IUF 1000 | What is the Good Life (GE-H)
+MAC 2311 | Analytic Geometry and Calculus 1 (State Core GE-M)
+
+COP 3503 | Programming Fundamentals 2
+COT 3100 | Applications of Discrete Structures
+MAC 2312 | Analytic Geometry and Calculus 2 (GE-M)
+PHY 2048 | Physics with Calculus 1 (State Core GE-P)
+PHY 2048L | Physics with Calculus 1 Laboratory (GE-P)
+
+COP 3530 | Data Structures and Algorithm
+MAC 2313 | Analytic Geometry and Calculus 3 (GE-M)
+PHY 2049 | Physics with Calculus 2 (GE-P)
+PHY 2049L | Laboratory for Physics with Calculus 2 (GE-P)
+Social and Behavioral Sciences | State Core GE-S
+
+CEN 3031 | Introduction to Software Engineering
+ENC 3246 | Professional Communication for Engineers (GE-C; E6)
+MAS 3114 | Computational Linear Algebra (3 credits) or
+MAS 4105 | Linear Algebra 1 (4 credits)
+Social and Behavioral Sciences | GE-S with N or D
+
+CDA 3101 | Introduction to Computer Organization
+CIS 4301 | Information and Database Systems
+COT 4501 | Numerical Analysis: A Computational Approach
+Humanities | State Core GE-H with N or D
+Interdisciplinary elective
+
+COP 4600 | Operating Systems
+EEL 3701C | Digital Logic and Computer Systems
+ENC 1102 | Argument and Persuasion (CE-C; E6)
+EGN 4034 | Professional Ethics
+Technical electives | (two)
+
+Internship / Co-op | If desired
+
+CNT 4007C | Computer Network Fundamentals
+Technical electives | (two)
+Interdisciplinary electives | (two)
+
+CIS 4914 | Senior Project or
+CIS 4913C | Integrated Product and Process Design 2 (4EG)
+STA 3032 | Engineering Statistics
+Technical elective
+Interdisciplinary electives | (two)

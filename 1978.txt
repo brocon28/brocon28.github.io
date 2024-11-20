@@ -1,0 +1,16 @@
+COC 3110 | Engineering Fundamentals and Ethics
+CDA 3101 | Introduction to Computer Architecture
+COP 3530 | Data Structures and Algorithms
+COP 3550 | Software Engineering Principles
+COP 3545 | Advanced Programming Techniques
+EGN 1110 | Introduction to Engineering Design
+CNM 3125 | Computational Methods for Engineers
+COP 4610 | Operating Systems and System Programming
+ESI 4523 | Engineering Economic Analysis
+CDA 4040 | Advanced Digital Systems
+CIS 4906 | Computer Engineering Project and Lab
+MAS 3114 | Linear Algebra for Engineers
+STA 4033 | Computational Statistics for Engineering
+MAC 2311 | Anal Geometry & Calc 1 (GE-M)
+MAC 2312 | Anal Geometry & Calc 2 (GE-M)
+MAC 2313 | Anal Geometry & Calc 3 (GE-M)

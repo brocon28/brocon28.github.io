@@ -1,0 +1,35 @@
+Pre-Engineering Curriculum
+
+COC 3110 | Introduction to CIS
+CDA 3101 | Introduction to Computer Organization
+COT 3001 | Applications of Discrete Structures (see note 12)
+COP 3530 | Data and Program Structures
+COP 3603 | Intro to Software Engineering
+COP 4600 | Systems Programming
+CIS 4914 | Computer Engineering Design
+MAS 3114 | Linear Algebra (see note 2)
+COT 4501 | Numerical Analysis — A Computational Approach (see note 3)
+STA 4321 | Mathematical Statistics
+EEL 4744 | Microprocessor Applications
+Engineering Core
+
+EEL 3396 | Solid State Electronic Devices (see note 5)
+ECM 3500 | Elements of Statics
+EML 3100 | Thermodynamics 1 (see note 6)
+Technical Electives
+
+MAD 3104 | Applications of Discrete Structures
+MAS 4105 | Linear Algebra I
+MAD 4401 | Introduction to Numerical Analysis
+STA 3032 | Engineering Statistics and STA 4033 | Computational Statistics
+EMA 3010 | Materials 1
+EGM 3511 | Engineering Mechanics — Statics
+CHM 4411 or EGN 3353
+
+EEL 3111 | Circuits
+EEL 3112 | Circuits 2
+EEL 3304 | Electronic Circuits 1
+EEL 3303L | Electrical Circuits Lab
+EEL 4303L | Electronics Lab
+EEL 3701C | Intro to Digital Systems
+EEL 4712C | Digital Design

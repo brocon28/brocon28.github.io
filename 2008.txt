@@ -1,0 +1,54 @@
+ENC 1101 | Writing Academic Arguments
+MAC 2311 | Analytic Geometry and Calculus 1 (GE-M)
+CHM 2045 | General Chemistry 1 (GE-P)
+CHM 2045L | General Chemistry 1 Laboratory (GE-P)
+Humanities (GE-H)
+Social and Behavioral Sciences (GE-S)
+
+MAC 2312 | Analytic Geometry and Calculus 2 (GE-M)
+PHY 2048 | Physics with Calculus 1 (GE-P)
+PHY 2048L | Laboratory for PHY 2048 (GE-P)
+CIS 3022 | Programming Fundamentals for CIS Majors 1 (CISE Program Elective)
+Interdisciplinary Elective
+
+CIS 3023 | Programming for CIS Majors 2 (GE-M)
+PHY 2049 | Physics with Calculus 2 (GE-P)
+PHY 2049L | Physics Laboratory (GE-P)
+Social and Behavioral Sciences (GE-S)
+
+MAC 2313 | Analytic Geometry and Calculus 3 (GE-M)
+COT 3100 | Applications of Discrete Structures
+EEL 3701C | Digital Logic and Computer Systems
+ENC 3254 | Professional Writing in the Discipline (Writing and Speaking for Engineers [GE-C, WR])
+
+MAP 2302 | Elementary Differential Equations
+CDA 3101 | Introduction to Computer Organization
+Interdisciplinary Elective
+Humanities (GE-H)
+
+COP 3530 | Data Structures and Algorithm
+Interdisciplinary Elective
+Humanities or Social and Behavioral Sciences (GE-H or GE-S)
+
+CIS 4301 | Information and Database Systems 1
+Interdisciplinary Elective
+MAS 3114 | Computational Linear Algebra or
+MAS 4105 | Linear Algebra 1
+STA 3032 | Engineering Statistics
+
+Communications Course
+COT 4501 | Numerical Analysis
+Interdisciplinary Elective
+Technical Elective
+
+Pursue Internship/Co-op, if desired
+
+COP 4600 | Operating Systems
+CEN 3031 | Introduction to Software Engineering
+CGS 3065 | Legal and Social Issues in Computing
+Technical Elective
+
+CEN 4500C | Computer Network Fundamentals
+CIS 4914 | Senior Project or
+CIS 4913C | Integrated Product and Process Design 2 (4EG)
+Technical Elective

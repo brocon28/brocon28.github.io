@@ -1,0 +1,23 @@
+Pre-Engineering Program
+COC 3110 | Introduction to Communication Systems
+CDA 3101 | Introduction to Computer Organization
+MAC 2311 | Analytic Geometry and Calculus 1
+MAC 2312 | Analytic Geometry and Calculus 2
+COP 3530 | Data Structures and Algorithms
+COP 3550 | Programming Concepts
+COP 3545 | Advanced Programming Techniques
+EGN 1110 | Introduction to Engineering
+
+Engineering Core
+CNM 3125 | Computational Numerical Methods
+COP 4610 | Operating Systems
+ESI 4523 | Decision Support Systems
+CDA 4040 | Computer Architecture
+CIS 4906 | Individual Study in Computer Science
+MAS 3114 | Linear Algebra for Engineers
+STA 4033 | Statistical Methods for Engineers
+
+Technical Electives | Engineering Technical Elective
+Restricted Technical Electives | Specialized Engineering Elective
+Non-Technical Electives | Non-Technical Elective
+Free Electives | Free Elective (any field of study)

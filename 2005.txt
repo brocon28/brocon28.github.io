@@ -1,0 +1,48 @@
+Humanities (GE)
+Foreign Language
+MAC 2311 | Analytic Geometry and Calculus 1 (GE-M)
+Composition (GE)
+
+Foreign Language
+PHY 2053 | Physics 1 (4) OR
+PHY 2048 | Physics with Calculus 1 (GE-P)
+PHY 2053L or PHY 2048L | Physics Lab (GE-P)
+MAC 2312 | Analytic Geometry and Calculus 2 (GE-M)
+Elective
+
+PHY 2054 | Physics 2 OR
+PHY 2049 | Physics with Calculus 2 (GE-P)
+PHY 2054L or PHY 2049L | Physics Lab (GE-P)
+MAC 2313 | Analytic Geometry & Calculus 3 (GE-M)
+CIS 3020 | Intro to Computer & Info Sciences
+Elective (or foreign language if 4-3-3 option)
+
+Humanities (GE)
+Social & Behavioral Sciences (GE-S)
+COT 3100 | Applied Discrete Structures (GE-M)
+EEL 3701C | Digital Logic and Computer Systems
+
+Humanities (GE-H)
+Biological Science (GE-B)
+Social & Behavioral Sciences (GE-S)
+CDA 3101 | Introduction to Computer Organization
+ENC 2210 | Technical Writing OR
+ENC 3254 | Writing in the Discipline
+
+Biological Science (GE-B)
+Social & Behavioral Sciences (GE-S)
+COP 3530 | Data and Algorithm Structures
+MAS 3114 | Computational Linear Algebra
+
+CEN 3031 | Intro to Software Engineering
+CIS 4301 | Information and Database System 1 OR
+CAP 4800 | System Simulation
+COT 4501 | Numerical Analysis
+CISE Elective
+Elective
+
+CIS 4914 | Senior Project
+COP 4600 | Operating Systems
+STA 4321 | Mathematical Statistics 1 (GE-M)
+CISE Elective
+Electives

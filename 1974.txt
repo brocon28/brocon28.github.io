@@ -1,0 +1,20 @@
+ESM 304 | Engineering Mechanics
+EE 301 | Introduction to Electrical Engineering
+ME 360 | Thermodynamics for Mechanical Engineers
+MTL 300 | Materials Science and Engineering
+Additional Core | Core Engineering Principles (subject to department)
+Eng. Economics | Engineering Economics
+CHN 251 | Intermediate Chinese I
+CHN 252 | Intermediate Chinese II
+CHN 253 | Advanced Chinese
+CIS 420 | Operating Systems
+CIS 561 | Computer Architecture
+CIS 411 | Data Structures and Algorithms
+CIS 361 | Discrete Mathematics
+CIS 453 | Database Systems
+STA 509 | Statistical Methods for Engineers
+MAC 2311 | Analytic Geometry and Calculus 1
+MAC 2312 | Analytic Geometry and Calculus 2
+Technical Electives | Engineering Technical Elective
+Non-Technical Electives | Non-Technical Elective
+Free Electives | Free Elective (any field of study)

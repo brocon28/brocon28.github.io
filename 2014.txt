@@ -1,0 +1,47 @@
+CHM 2045 | General Chemistry 1 or
+CHM 2095 | Chemistry for Engineers 1
+CHM 2045L | General Chemistry 1 Laboratory
+COP 3502 | Programming Fundamentals 1
+HUM 2305 | What is the Good Life
+MAC 2311 | Analytic Geometry and Calculus 1
+
+COP 3503 | Programming Fundamentals 2
+COT 3100 | Applications of Discrete Structures
+MAC 2312 | Analytic Geometry and Calculus 2
+PHY 2048 | Physics with Calculus 1
+PHY 2048L | Physics with Calculus 1 Laboratory
+
+COP 3530 | Data Structures and Algorithm
+MAC 2313 | Analytic Geometry and Calculus 3
+PHY 2049 | Physics with Calculus 2
+PHY 2049L | Laboratory for Physics with Calculus 2
+Social and Behavioral Sciences
+
+CEN 3031 | Introduction to Software Engineering
+ENC 3254 | Professional Communication for Engineers
+MAS 3114 | Computational Linear Algebra or
+MAS 4105 | Linear Algebra 1
+Humanities or Social and Behavioral Sciences
+Social and Behavioral Sciences
+
+CDA 3101 | Introduction to Computer Organization
+CIS 4301 | Information and Database Systems
+COT 4501 | Numerical Analysis
+Humanities
+Interdisciplinary elective
+
+COP 4600 | Operating Systems
+EEL 3701C | Digital Logic and Computer Systems
+EGN 4034 | Professional Ethics
+Approved communications course
+CISE technical electives
+
+CNT 4007C | Computer Network Fundamentals
+CISE technical electives
+Interdisciplinary electives
+
+CIS 4914 | Senior Project or
+CIS 4913C | Integrated Product and Process Design 2
+STA 3032 | Engineering Statistics
+CISE technical elective
+Interdisciplinary electives

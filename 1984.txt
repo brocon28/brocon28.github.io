@@ -1,0 +1,25 @@
+Pre-Engineering Program
+COC 3110 | Introduction to CIS
+CDA 3101 | Introduction to Computer Organization
+MAC 2311 | Analytic Geometry and Calculus 1
+MAC 2312 | Analytic Geometry and Calculus 2
+COP 3530 | Data and Program Structures
+COP 3603 | Software System Design
+COP 4620 | Systems Programming
+COP 4640 | Translators and Translator Writing Systems
+COT 3001 | Applied Discrete Structures
+CNM 4110 | Numerical Analysis-A Computational Approach
+EEL 3701 | Introduction to Computer Engineering
+EEL 4744 | Microprocessors
+EIN 4354 | Engineering Economy
+CIS 4905 | Senior Project
+MAS 3114 | Linear Algebra
+STA 3032 | Engineering Statistics
+STA 4033 | Mathematical Statistics with Computer Applications
+ENC 3213 | Technical Writing and Business Communication
+
+Engineering Core | Core Engineering Principles
+Restricted Technical Electives | Specialized Engineering Elective
+Technical Electives | Engineering Technical Elective
+Non-Technical Electives | Non-Technical Elective
+Free Electives | Free Elective (any field of study)

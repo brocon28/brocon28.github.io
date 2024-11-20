@@ -1,0 +1,55 @@
+CHM 2045 | General Chemistry 1
+CHM 2095 | Chemistry for Engineers 1 (GE-P)
+CHM 2045L | General Chemistry 1 Laboratory (GE-P)
+COP 3502 | Programming Fundamentals for CIS Majors 1 (CISE Technical Elective)
+HUM 2305 | What is the Good Life (GE-H)
+MAC 2311 | Analytic Geometry and Calculus 1 (GE-M)
+
+COP 3504 | Advanced Programming Fundamentals for CIS Majors (GE-M) or
+COP 3503 | Programming Fundamentals for CIS Majors 2
+COT 3100 | Applications of Discrete Structures
+MAC 2312 | Analytic Geometry and Calculus 2 (GE-M)
+PHY 2048 | Physics with Calculus 1 (GE-P)
+PHY 2048L | Physics with Calculus 1 Laboratory (GE-P)
+
+Humanities (GE-H)
+Social and Behavioral Sciences (GE-S)
+
+CDA 3101 | Introduction to Computer Organization
+COP 3530 | Data Structures and Algorithms
+MAC 2313 | Analytic Geometry and Calculus 3 (GE-M)
+PHY 2049 | Physics with Calculus 2 (GE-P)
+PHY 2049L | Physics with Calculus 2 Laboratory (GE-P)
+
+CEN 3031 | Introduction to Software Engineering
+MAP 2302 | Elementary Differential Equations
+STA 3032 | Engineering Statistics
+Interdisciplinary Elective
+Social and Behavioral Sciences (GE-S)
+
+EEL 3701C | Digital Logic and Computer Systems
+Humanities (GE-H) or Social and Behavioral Sciences (GE-S)
+
+CIS 4301 | Information and Database Systems
+ENC 3254 | Professional Communication for Engineers (GE-C, WR)
+MAS 3114 | Computational Linear Algebra or
+MAS 4105 | Linear Algebra 1
+Interdisciplinary Elective
+
+CISE Technical Electives (two)
+COT 4501 | Numerical Analysis
+Approved Engineering Ethics
+Interdisciplinary Elective
+
+Internship / Co-op, if desired
+
+CISE Technical Elective
+COP 4600 | Operating Systems
+Communications Course
+Interdisciplinary Elective
+
+CIS 4914 | Senior Project or
+CIS 4913C | Integrated Product and Process Design 2 (4EG)
+CISE Technical Elective
+CNT 4007C | Computer Network Fundamentals
+Interdisciplinary Elective

@@ -1,0 +1,51 @@
+ENC 1101 | English Composition 1
+Social & Behavioral Sciences (GE-S)
+MAC 2311 | Analytical Geometry & Calc 1 (GE-M)
+Humanities
+CHM 2015 | General Chemistry 1 (GE-P)
+CHM 2045L | General Chemistry Lab (GE-P)
+
+PHY 2048 | Physics with Calculus 1 (GE-P)
+PHY 2055L | Physics Lab (GE-P)
+ENC 2210 | Technical Writing (GE-C)
+MAC 2312 | Analytical Geometry & Calc 2 (GE-M)
+CHM 2046 | General Chemistry 2 (GE-P)
+
+Social & Behavioral Sciences (GE)
+Humanities (GE)
+MAC 2313 | Analytical Geometry & Calc 3
+PHY 2049 | Physics with Calculus 2
+PHY 2056L | Physics Lab
+
+Humanities (GE)
+EGM 3311 | Intro to Engineering Analysis or MAP 2302 | Differential Equations
+EGM 2511 | Statics
+Biological Science Elective (GE)
+SUR 2101C | Geomatics
+
+EGM 3520 | Strength of Materials
+CES 3102 | Mechanics of Engineering Structures
+SUR 2322C | Project Development and Visualization or EML 3023 | Computer Aided Design
+CGN 4101 | Civil Engineering Cost Analysis
+EML 4930 | Engineering Thermodynamics and Heat Transfer or EML 3100 | Thermodynamics
+
+CEC 4011 | Soil Mechanics
+EGM 3400 | Dynamics
+CGN 3421 | Computer Programs for Civil Engineering
+CGN 3710 | Experimental Instrumentation in Civil Engineering
+CCE 4204 | Construction Methods and Management
+
+CES 4702 | Analysis and Design in Concrete
+CES 4141 | Stress Analysis
+CGN 3501 | Civil Engineering Materials
+CWR 3201 | Hydrodynamics
+
+CEG 4012 | Geotechnical Engineering
+CES 4605 | Analysis and Design in Steel
+SUR 4201 | Route Geometrics
+CWR 4202 | Hydraulics
+EGN 4032 | Professional Issues in Engineering
+SUR 4201L | Route Geomatics Lab
+
+CWR 4111 | Hydrology
+CWR 4812 | Water Resources Engineering
