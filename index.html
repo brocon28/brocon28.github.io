@@ -768,7 +768,7 @@
         // Function to load file content (simulate file reading via fetch or direct input)
         async function loadFile(year) {
             try {
-                const response = await fetch(`years/${year}.txt`); // Adjust the path if necessary
+                const response = await fetch(`${year}.txt`); // Adjust the path if necessary
                 if (!response.ok) {
                     throw new Error('File not found');
                 }
