@@ -499,8 +499,8 @@
         <!-- Content Section 1 -->
         <div class="content-section">
             <div class="text">
-                <h2>CS Major Origins</h2>
-                <p>Computer science began to be established as a distinct academic discipline in the 1950s and early 1960s. The world's first computer science degree program, at Cambridge, began at the University of Cambridge Computer Laboratory in 1953.</p>
+                <h2>Foundations of UF Computer Science</h2>
+                <p>Founded in 1972, the University of Florida's CISE department has grown in scope and infrastructure, shaping the future of computing and engineering education through key milestones in faculty leadership and research.</p>
             </div>
         <img src="horizontal.jpg" alt="Old computer">
         </div>
@@ -511,29 +511,31 @@
             <div class="carousel">
                 <div class="arrow" id="prev1">&#10094;</div>
                 <div class="carousel-items" id="carousel1">
-                    <a href="bobRamey.html" class="carousel-item active">
-                        <img src="robRamey.jpg" alt="Tech evolution 1">
-                        <p>Robert “Bob” Ramey</p>
-                        <p2>Founding Chair of CISE</p2>
+                    <a href="birthCISE.html" class="carousel-item">
+                        <img src="birthCISE.jpg" alt="Tech evolution 1">
+                        <p>Birth of CISE</p>
                     </a>
-                    <div class="carousel-item">
-                        <img src="charlesBennett.jpg" alt="Tech evolution 2">
-                        <p>Charles Bennett</p>
-                        <p2>President of the time</p2>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="phd.jpg" alt="Tech evolution 3">
-                        <p>Stanley Su, Ph.D. & Herman Lam, Ph.D.</p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="md.jpg" alt="Tech evolution 4">
-                        <p>Leslie H. Oliver, Ph.D. & Edward A. Geiser, M.D.</p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Juan-Gilbert.jpg" alt="Tech evolution 5">
-                        <p>Juan E. Gilbert, Ph.D.,</p>
-                        <p2>the Banks Family Preeminence Endowed Professor</p2>
-                    </div>
+
+                    <a href="keyMilestones.html" class="carousel-item">
+                        <img src="keyMilestones.jpg" alt="Tech evolution 1">
+                        <p>Key Milestones</p>
+
+                    </a>
+                    <a href="expansion.html" class="carousel-item">
+                        <img src="expansion.jpg" alt="Tech evolution 1">
+                        <p>CSE Building and Expansion</p>
+
+                    </a>
+                    <a href="research.html" class="carousel-item">
+                        <img src="research.jpg" alt="Tech evolution 1">
+                        <p>Rise of Research Initiatives</p>
+
+                    </a>
+                    <a href="careerDevelopment.html" class="carousel-item">
+                        <img src="careerDevelopment.jpg" alt="Tech evolution 1">
+                        <p>Career Development Workshop</p>
+
+                    </a>
                 </div>
                 <div class="arrow" id="next1">&#10095;</div>
             </div>
@@ -542,9 +544,10 @@
         <!-- Content Section 2 -->
         <div class="bob">
             <div class="content-section">
-                <img src="horizontal.jpg" alt="AI growth">
+                <img src="secondHeading.png" alt="AI growth">
                 <div class="text">
-                    <p>Artificial intelligence is rapidly transforming industries. From healthcare to autonomous systems, AI is setting the stage for the future of innovation.</p>
+                    <h2>Leadership, Diversity, and Innovation</h2>
+                    <p>Leadership and innovation have been at the core of UF CISE since its inception. From its founding leadership to the diverse and inclusive environment it fosters today, the department has continually sought to be a leader in both education and research.</p>
                 </div>
             </div>
         </div>
@@ -555,27 +558,31 @@
             <div class="carousel">
                 <div class="arrow" id="prev2">&#10094;</div>
                 <div class="carousel-items" id="carousel2">
-                    <div class="carousel-item active">
-                        <img src="vertical.jpg" alt="AI in healthcare">
-                        <p>Card 1 - In Focus</p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="vertical.jpg" alt="AI in robotics">
-                        <p>Card 2 - Side</p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="vertical.jpg" alt="AI in automation">
-                        <p>Card 3 - Side</p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="vertical.jpg" alt="AI in automation">
-                        <p>Card 4 - Side</p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="vertical.jpg" alt="AI in automation">
-                        <p>Card 5 - Side</p>
-                    </div>
-                </div>
+                    <a href="bobRamey.html" class="carousel-item">
+                        <img src="bobRamey.jpg" alt="Tech evolution 1">
+                        <p>Robert “Bob” Ramey</p>
+                    </a>
+
+                    <a href="modernLeadership.html" class="carousel-item">
+                        <img src="modernLeadership.png" alt="Tech evolution 1">
+                        <p>Modern Leadership Dr. Juan E. Gilbert</p>
+
+                    </a>
+                    <a href="researchInnovation.html" class="carousel-item">
+                        <img src="researchInnovation.jpg" alt="Tech evolution 1">
+                        <p>Research Innovation in CISE</p>
+
+                    </a>
+                    <a href="diversity.html" class="carousel-item">
+                        <img src="diversity.png" alt="Tech evolution 1">
+                        <p>Diversity and Inclusion Initiatives</p>
+
+                    </a>
+                    <a href="future.html" class="carousel-item">
+                        <img src="future.jpg" alt="Tech evolution 1">
+                        <p>Future Directions in Research and Technology</p>
+
+                    </a>
                 <div class="arrow" id="next2">&#10095;</div>
             </div>
         </div>
@@ -761,7 +768,7 @@
         // Function to load file content (simulate file reading via fetch or direct input)
         async function loadFile(year) {
             try {
-                const response = await fetch(`${year}.txt`); // Adjust the path if necessary
+                const response = await fetch(`years/${year}.txt`); // Adjust the path if necessary
                 if (!response.ok) {
                     throw new Error('File not found');
                 }
